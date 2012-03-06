@@ -1,0 +1,69 @@
+Simplify CSS Development with Sass & Compass
+============================================
+
+
+The Basics
+----------
+
+### Variables
+
+### Nesting selectors
+
+### Nesting statements
+
+### Comments
+
+Tools
+-----
+
+### A Few Desktop GUI's
+
+  * [Web Workbench](http://www.mindscapehq.com/products/web-workbench "Web Workbench - Sass, Less and CoffeeScript in Visual Studio")
+  * [Compass.app](http://compass.handlino.com/ "Compass.app: compile Sass/Compass easily without resorting to command line interface")
+  * [CodeKit](http://incident57.com/codekit/ "CodeKit — THE Mac App For Web Developers")
+  * [Scout](http://mhs.github.com/scout-app/ "Scout - Compass and Sass without all the hassle")
+  * [LiveReload2](http://livereload.com/ "LiveReload")
+
+- Commandline
+  - Sass itself
+  - sass
+
+It's the Coder Not the tool
+---------------------------
+
+Two Syntaxes??
+--------------
+Sass and Scss
+
+A Bit More Complex
+------------------
+
+- Mixins
+- Branching/Conditionals/Etc.
+- Selector Inheritance
+- Functions
+
+Make the Ugly stick and Pretty stick
+------------------------------------
+
+- Output style
+- A little debugging help
+
+Environment Integration
+-----------------------
+
+- WordPress
+- Drupal
+
+What is Compass?
+----------------
+
+- Helpers
+- Mixins
+- Frameworks and Framework Building Tools
+- Plugin Architecture
+
+Cut the Cruft
+-------------
+
+- CSS3 Helpers
