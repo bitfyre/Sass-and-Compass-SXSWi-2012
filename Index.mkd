@@ -1,11 +1,16 @@
 Simplify CSS Development with Sass & Compass
 ============================================
 
+Alex Lemanski (@bitfyre)
+
+Front-End Developer, Trilogy Interactive
 
 The Basics
 ----------
 
 ### Variables
+
+  
 
 ### Nesting selectors
 
@@ -31,8 +36,9 @@ Tools
 It's the Coder Not the tool
 ---------------------------
 
-Two Syntaxes??
---------------
+Two Syntaxes?? Are you nuts?!
+-----------------------------
+
 Sass and Scss
 
 A Bit More Complex
@@ -42,6 +48,8 @@ A Bit More Complex
 - Branching/Conditionals/Etc.
 - Selector Inheritance
 - Functions
+
+### Function to generate Kuler like color pallets
 
 Make the Ugly stick and Pretty stick
 ------------------------------------
@@ -67,3 +75,6 @@ Cut the Cruft
 -------------
 
 - CSS3 Helpers
+
+Resources
+---------
