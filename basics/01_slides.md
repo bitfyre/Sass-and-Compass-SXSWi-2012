@@ -8,12 +8,12 @@ The Basics
 Variables
 ---------
 
-    $font-color:        #3B3330;
+    $font-color:      #3B3330;
 
-    $sans-family:       Helvetica, FreeSans, 
-      "Nimbus Sans L", Arial, sans-serif;
+    $sans-family:     Helvetica, FreeSans,  ↵
+      "Nimbus Sans L", Arial, sans-serif;  ↵
 
-    $fancy-sans-family: "dejarip-1",
+    $fancy-sans-family: "dejarip-1",  ↵
       "dejarip-2", $sans-family;
     
     h1 {

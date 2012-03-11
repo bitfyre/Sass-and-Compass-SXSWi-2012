@@ -8,11 +8,12 @@ What's that all about?
 
 !SLIDE code
 
-    $font-color:        #3B3330
-    $sans-family:       Helvetica, FreeSans, »
+    $font-color:      #3B3330
+
+    $sans-family:     Helvetica, FreeSans,  ↵
       "Nimbus Sans L", Arial, sans-serif
     
-    $fancy-sans-family: "dejarip-1", »
+    $fancy-sans-family: "dejarip-1",  ↵
       "dejarip-2", $sans-family
 
 !SLIDE code

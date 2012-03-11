@@ -5,10 +5,10 @@ But Don't You Get <br/> @#$% Like This
 
 !SLIDE
 
-    html body > section > header 
+    html body > section > header  ↵
       {color: green;}
     
-    html body > section > header > article 
+    html body > section > header > article  ↵
       > header {color: purple;}
 
 !SLIDE
