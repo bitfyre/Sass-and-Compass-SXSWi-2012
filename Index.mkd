@@ -60,19 +60,10 @@ The Basics
 
 ### Nesting statements
 
-    .nav {
-      …
-      a {
-        background-color: $nav-bg-color;
-        &:hover, &:focus {
-          color: $link-hover-color;
-          background: {
-            color: $nav-bg-hover;
-            image: url("nav-bg");
-            repeat: no-repeat;
-          }
-        }
-      }
+    background: {
+      color: $nav-bg-hover;
+      image: url("nav-bg");
+      repeat: no-repeat;
     }
 
 ### Comments
