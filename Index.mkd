@@ -1,22 +1,17 @@
 Simplify CSS Development with Sass & Compass
 ============================================
 
-[Alex Lemanski](http://www.bitfyre.net) ([@bitfyre](http://twitter.com/bitfyre.))
+[Alex Lemanski](http://www.bitfyre.net) ([@bitfyre](http://twitter.com/bitfyre.))  
+[Trilogy Interactive](http://www.trilogyinteractive.com/ "Trilogy Interactive")
 
-IE Tamer
+* IE Tamer
+* Accessibility Wrist Slapper
+* The dude who won't Shut up about Sass
+* Front-End Developer
+* And…
 
-Accessibility Person
-
-Front-End Developer
-
-And and the dude who won't Shut up about Sass
-
-Trilogy Interactive
-
-And I…
-
-Was a Sass Hater
-----------------
+I Was a Sass Hater
+------------------
 
 * Until about 2.5 years ago
 * Nov 2009
@@ -36,6 +31,10 @@ The Basics
       font-family: $fancy-sans-family;
       color: $font-color;
     }
+
+#### Setting a Default Variable Value
+
+    $font-size: 12 !default;
 
 ### Nesting selectors
 
@@ -138,10 +137,50 @@ Two Syntaxes?? Are you nuts?!
 A Bit More Complex
 ------------------
 
-- Mixins
-- Branching/Conditionals/Etc.
-- Selector Inheritance
-- Functions
+### Working with Multiple Files
+
+    site.scss, site.sass
+    site.css.scss, site.css.sass
+
+Store in a `./lib` Sub-directory of the Sass files
+
+Start files to be imported with and underscore e.g. _nav.scss
+
+    @import "lib/nav";
+    @import "nav";
+
+### Mixins
+
+    @mixin wrap($wrap-width) {
+      margin: 0 auto;
+      overflow: hidden;
+      text-align: left;
+      max-width: $wrap-width;
+    }
+    
+    #wrapper {
+      @include wrap(960px);
+    }
+
+### Branching/Conditionals/Etc.
+
+### Selector Inheritance
+
+### Functions
+
+    $$base-font-size: 12 !default;
+    
+    @function pxs2ems($px: 0, $context: $base-font-size) {
+      $ems: ($px / $context) * 1em;
+      @return $ems;
+    }
+    
+    h1 {
+      font-size: pxs2ems(24, 12);
+    }
+
+* Supports Various Math operations
+* Converts Between Units automatically whenever it's possible
 
 ### Function to generate Kuler like color pallets
 
@@ -235,7 +274,7 @@ Hit it with the Ugly stick and the Pretty stick
 
 #### Other Useful Output Configs
 
-    :line_comments => true, 
+    :line_comments => true,
     :debug_info => true
 
 CMS Integration
