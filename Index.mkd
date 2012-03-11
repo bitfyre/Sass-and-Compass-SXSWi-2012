@@ -340,6 +340,7 @@ Cut the Cruft
 
 ### CSS3 Helpers
 
+Just about everything under the Sun.
 
 ### Plugins
 
