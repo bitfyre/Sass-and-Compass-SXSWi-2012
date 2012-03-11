@@ -187,7 +187,17 @@ Start files to be imported with and underscore e.g. _nav.scss
 
 ### Branching/Conditionals/Etc.
 
+[From the Compass Project](http://compass-style.org/reference/compass/css3/text-shadow/ "Compass Text Shadow | Compass Documentation")
 
+    @mixin single-text-shadow($color: $default-text-shadow-color, 
+      $hoff: $default-text-shadow-h-offset, 
+      $voff: $default-text-shadow-v-offset, 
+      $blur: $default-text-shadow-blur) {
+      // XXX I'm surprised we don't need experimental support for this property.
+      @if $color == none {
+        text-shadow: none; }
+      @else {
+        text-shadow: $color $hoff $voff $blur; } }
 
 ### Functions
 
@@ -323,6 +333,12 @@ Cut the Cruft
 -------------
 
 ### CSS3 Helpers
+
+Additional Things to Dig into
+-----------------------------
+
+* [Sass Script Functions](http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html "Module: Sass::Script::Functions")
+* Other [@-Rules](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#directives "File: SASS_REFERENCE") and [Control Directives](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#control_directives "File: SASS_REFERENCE")
 
 Additional Resources
 --------------------
