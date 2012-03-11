@@ -40,7 +40,7 @@ The Basics
 ### Nesting selectors
 
     .nav {
-      font-family: $font-family;
+      font-family: $sans-family;
       ul, ol {
         list-style: none;
         list-style-image: none;
@@ -62,7 +62,7 @@ The Basics
 
     background: {
       color: $nav-bg-hover;
-      image: url("nav-bg");
+      image: url("nav-bg.png");
       repeat: no-repeat;
     }
 
@@ -122,10 +122,10 @@ Two Syntaxes?? Are you nuts?!
     $fancy-sans-family: "dejarip-1","dejarip-2", $sans-family
 
     .nav
-      font-family: $font-family
+      font-family: $sans-family
       ul, ol
-        list-style: none;
-        list-style-image: none;
+        list-style: none
+        list-style-image: none
       a
         background-color: $nav-bg-color
         &:hover, &:focus
@@ -149,6 +149,34 @@ Hit it with the Ugly stick and the Pretty stick
 -----------------------------------------------
 
 ### Output styles
+
+    /* --------------------------------- */
+    /* Navigation */
+    /* --------------------------------- */
+
+    // Typography
+    $font-color: #3b3330;
+    $sans-family: Helvetica, FreeSans, "Nimbus Sans L", Arial, sans-serif;
+    $fancy-sans-family: "dejarip-1", "dejarip-2", $sans-family;
+
+    // Nav colors
+    $link-hover-color: blue;
+    $nav-bg-color: $font-color;
+    $nav-bg-hover: lighten($nav-bg-color, 20%);
+
+    .nav {
+      font-family: $sans-family;
+      ul, ol {
+        list-style: none;
+        list-style-image: none; }
+      a {
+        background-color: $nav-bg-color;
+        &:hover, &:focus {
+          color: $link-hover-color;
+          background: {
+            color: $nav-bg-hover;
+            image: url("nav-bg.png");
+            repeat: no-repeat; }; } } }
 
 :nested
 :expanded
