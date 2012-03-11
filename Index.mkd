@@ -162,8 +162,6 @@ Start files to be imported with and underscore e.g. _nav.scss
       @include wrap(960px);
     }
 
-### Branching/Conditionals/Etc.
-
 ### Selector Inheritance
 
     .clearfix { 
@@ -186,6 +184,10 @@ Start files to be imported with and underscore e.g. _nav.scss
     .main {
       …
     }
+
+### Branching/Conditionals/Etc.
+
+
 
 ### Functions
 
@@ -321,6 +323,7 @@ Cut the Cruft
 -------------
 
 ### CSS3 Helpers
+
 
 Additional Resources
 --------------------
