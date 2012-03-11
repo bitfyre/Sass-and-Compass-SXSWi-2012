@@ -1,26 +1,8 @@
 ### Function to generate Kuler like color pallets
 
-CMS Integration
----------------
 
-- WordPress
-  - [Sass WordPress Plugins](http://wordpress.org/extend/plugins/search.php?q=sass "WordPress &#8250; Search for sass &laquo; WordPress Plugins")
-  - Also Checkout [Forge](http://forge.thethemefoundry.com/ "Forge") from The Theme Foundry
-- [Sass Drupal Modules](http://drupal.org/search/apachesolr_multisitesearch/sass?filters=ss_meta_type%3Amodule)
-- Or…
-
-…Just upload the compiled CSS
-
-What is Compass?
-----------------
-
-- Helpers Functions
-- Mixins
-- Framework for Building Frameworks
-- Plugin Architecture
-
-Cut the Cruft
--------------
+Helping Cut out the <br/>Cruft from your code
+---------------------------------------------
 
 ### CSS3 Helpers
 
