@@ -340,6 +340,11 @@ Cut the Cruft
 
 ### CSS3 Helpers
 
+
+### Plugins
+
+[Sassy Buttons](http://jaredhardy.com/sassy-buttons/ "Sassy Buttons, Awesome CSS3 Buttons With Compass and Sass - Jared Hardy")
+
 Additional Things to Dig into
 -----------------------------
 
