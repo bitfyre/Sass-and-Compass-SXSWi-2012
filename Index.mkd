@@ -166,6 +166,27 @@ Start files to be imported with and underscore e.g. _nav.scss
 
 ### Selector Inheritance
 
+    .clearfix { 
+      …
+      &:after {
+        …
+      }
+    }
+    
+    .main {
+      @extend .clearfix
+    }
+
+    .clearfix, .main {
+      …
+    }
+    .clearfix:after, .main:after {
+      …
+    }
+    .main {
+      …
+    }
+
 ### Functions
 
     $$base-font-size: 12 !default;
