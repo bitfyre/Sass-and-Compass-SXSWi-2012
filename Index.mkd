@@ -112,7 +112,7 @@ But Don't You Get Crap Like This
 * Break things down as much as possible
 * Work from the main area of content or interaction out
 
-It's just a tool doing whatever you tell it too
+It's just a tool doing whatever you tell it too!
 
 Two Syntaxes?? Are you nuts?!
 -----------------------------
@@ -150,11 +150,16 @@ Make the Ugly stick and Pretty stick
 
 - Output Style
 
-Environment Integration
------------------------
+CMS Integration
+---------------
 
 - WordPress
-- Drupal
+  - [Sass WordPress Plugins](http://wordpress.org/extend/plugins/search.php?q=sass "WordPress &#8250; Search for sass &laquo; WordPress Plugins")
+  - Also Checkout [Forge](http://forge.thethemefoundry.com/ "Forge") from The Theme Foundry
+- [Sass Drupal Modules](http://drupal.org/search/apachesolr_multisitesearch/sass?filters=ss_meta_type%3Amodule)
+- Or…
+
+…Just upload the compiled CSS
 
 What is Compass?
 ----------------
