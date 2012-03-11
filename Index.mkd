@@ -3,14 +3,22 @@ Simplify CSS Development with Sass & Compass
 
 [Alex Lemanski](http://www.bitfyre.net) ([@bitfyre](http://twitter.com/bitfyre.))
 
-Front-End Developer, Trilogy Interactive
+IE Tamer
+
+Accessibility Person
+
+Front-End Developer
+
+And and the dude who won't Shut up about Sass
+
+Trilogy Interactive
 
 And I…
 
 Was a Sass Hater
 ----------------
 
-* Until 2 years ago
+* Until about 2.5 years ago
 * Nov 2009
 * The Change Log episode 0.0.1
 * Nathan Weizenbaum & Chris Eppstein
@@ -30,7 +38,6 @@ The Basics
     }
 
 ### Nesting selectors
-
 
     .nav {
       font-family: $font-family;
@@ -89,21 +96,53 @@ Tools
 
 ### Commandline
 
-- Sass itself
-- sass
+* Sass itself
+* sass-convert
+* Vast Number of static site Generators
+  - Middleman (My personal Favorite)
+* Compass
 
 ### Debugging Tools
 
 * Generated Line Comments
 * [FireSass for Firebug](https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/)
 
-It's the Coder Not the tool
----------------------------
+But Don't You Get Crap Like This
+--------------------------------
+
+    html body > section > header {color: green;}
+    html body > section > header > article > header {color: purple;}
+
+### Just Don't Do It!
+
+### Follow Some Good Practices CSS
+
+* Don't nest more than 4 selectors deep
+* Break things down as much as possible
+* Work from the main area of content or interaction out
+
+It's just a tool doing whatever you tell it too
 
 Two Syntaxes?? Are you nuts?!
 -----------------------------
 
-Sass and Scss
+    $font-color:        #3B3330
+    $sans-family:       Helvetica, FreeSans, "Nimbus Sans L", Arial, sans-serif
+    $fancy-sans-family: "dejarip-1","dejarip-2", $sans-family
+
+    .nav
+      font-family: $font-family
+      ul, ol
+        list-style: none;
+        list-style-image: none;
+      a
+        background-color: $nav-bg-color
+        &:hover, &:focus
+          color: $link-hover-color
+          background:
+            color: $nav-bg-hover
+            image: url("nav-bg")
+            repeat: no-repeat
 
 A Bit More Complex
 ------------------
@@ -118,8 +157,7 @@ A Bit More Complex
 Make the Ugly stick and Pretty stick
 ------------------------------------
 
-- Output style
-- A little debugging help
+- Output Style
 
 Environment Integration
 -----------------------
