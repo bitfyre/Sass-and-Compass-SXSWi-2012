@@ -178,10 +178,65 @@ Hit it with the Ugly stick and the Pretty stick
             image: url("nav-bg.png");
             repeat: no-repeat; }; } } }
 
-:nested
-:expanded
-:compact
-:compressed
+#### :nested
+
+    /* --------------------------------- */
+    /* Navigation */
+    /* --------------------------------- */
+    .nav {
+      font-family: Helvetica, FreeSans, "Nimbus Sans L", Arial, sans-serif; }
+      .nav ul, .nav ol {
+        list-style: none;
+        list-style-image: none; }
+      .nav a {
+        background-color: #3b3330; }
+        .nav a:hover, .nav a:focus {
+          color: blue;
+          background-color: #73645e;
+          background-image: url("nav-bg.png");
+          background-repeat: no-repeat; }
+
+#### :expanded
+
+    /* --------------------------------- */
+    /* Navigation */
+    /* --------------------------------- */
+    .nav {
+      font-family: Helvetica, FreeSans, "Nimbus Sans L", Arial, sans-serif;
+    }
+    .nav ul, .nav ol {
+      list-style: none;
+      list-style-image: none;
+    }
+    .nav a {
+      background-color: #3b3330;
+    }
+    .nav a:hover, .nav a:focus {
+      color: blue;
+      background-color: #73645e;
+      background-image: url("nav-bg.png");
+      background-repeat: no-repeat;
+    }
+
+#### :compact
+
+    /* --------------------------------- */
+    /* Navigation */
+    /* --------------------------------- */
+    .nav { font-family: Helvetica, FreeSans, "Nimbus Sans L", Arial, sans-serif; }
+    .nav ul, .nav ol { list-style: none; list-style-image: none; }
+    .nav a { background-color: #3b3330; }
+    .nav a:hover, .nav a:focus { color: blue; background-color: #73645e; background-image: url("nav-bg.png"); background-repeat: no-repeat; }
+
+#### :compressed
+
+    .nav{font-family:Helvetica,FreeSans,"Nimbus Sans L",Arial,sans-serif}.nav ul,.nav ol{list-style:none;list-style-image:none}.nav a{background-color:#3b3330}.nav a:hover,.nav a:focus{color:blue;background-color:#73645e;background-image:url("nav-bg.png");background-repeat:no-repeat}
+
+
+#### Other Useful Output Configs
+
+    :line_comments => true, 
+    :debug_info => true
 
 CMS Integration
 ---------------
