@@ -1,1 +1,6 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{
+  "name": "Simplify CSS Development with Sass & Compass",
+  "sections":[
+    {"section":"intro"}
+  ]
+}
